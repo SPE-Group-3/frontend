@@ -28,7 +28,11 @@ const Header = () => {
         <span>Airport taxis</span>
         </div>
       </div>
-
+      <h1 className="headerTitle">Your next holiday awaits</h1>
+      <p className="headerDesc">Get the lowest prices on hotels, 
+        apartments and more...</p>
+      <button className="headerBtn">Sign in / Register</button>
+      
       </div>
     </div>
   )

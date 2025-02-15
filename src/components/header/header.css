@@ -24,4 +24,21 @@
     gap: 10px;
 }
 
+.headerListItem.active{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
 
+.headerDesc{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    color: white;
+    background-color: #55606f;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+}
