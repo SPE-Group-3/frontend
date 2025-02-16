@@ -1,9 +1,11 @@
 .header{
     /* background-color: #404751; */
-    background-color:  #283747 ;
+    /* background-color:  #283747 ; */
+    background-color:  #1b2631 ;
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .headerContainer{
@@ -52,8 +54,29 @@
     padding: 10px 0px;
     justify-content: space-around;
     border-radius: 5px;
+    bottom: -25px;
+    position: absolute;
+    max-width: 1024px;
+    width: 100%;
 }
 
 .headerIcon{
     color: lightgray;
 }
+
+.headerSearchItem{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.headerSearchInput{
+    outline:none;
+    border: none;
+}
+
+.headerSearchText{
+    cursor: pointer;
+    color: lightgray;
+}
+
