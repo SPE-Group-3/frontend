@@ -42,3 +42,18 @@
     padding: 10px;
     border: none;
 }
+
+.headerSearch{
+    background-color: white;
+    border: 3px solid #febb02;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.headerIcon{
+    color: lightgray;
+}
