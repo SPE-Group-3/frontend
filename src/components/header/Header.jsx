@@ -8,6 +8,12 @@ import { faBed, faCalendarDays, faCar, faPerson, faPlane, faTaxi } from "@fortaw
 import { DateRange } from 'react-date-range';
 
 const Header = () => {
+  const [openOptions, setOpenOptions] = useState(false)
+  const [options, setOptions] = useState({
+    adult: 1,
+    children: 0,
+    rooms: 1
+  })
   const [date, setDate] = useState([
     {
       startDate: new Date(),
@@ -61,7 +67,7 @@ const Header = () => {
         </div>
         <div className="headerSearchItem">
         <FontAwesomeIcon icon={faPerson}  className="headerIcon"/>
-        <span className="headerSearchText">2 adults 2 children 1 room</span>
+        <span className="headerSearchText">{`${options.adult} adult . ${options.children} children . ${options.rooms} room`}</span>
         </div>
         <div className="headerSearchItem">
         <button className="headerBtn">Search</button>
