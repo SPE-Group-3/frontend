@@ -80,3 +80,7 @@
     color: lightgray;
 }
 
+.date{
+    position: absolute;
+    top: 50px;
+}
